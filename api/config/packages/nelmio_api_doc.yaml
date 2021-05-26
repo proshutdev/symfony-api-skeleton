@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: SnappDoctor Coding Challenge
+            description: A simple REST API, which provides information about vacancies for positions of Software Engineers and Team leads in European cities
+            version: 1.0.0
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc

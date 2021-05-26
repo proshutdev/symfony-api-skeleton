@@ -1,0 +1,6 @@
+framework:
+    cache:
+        #default_redis_provider: '%env(resolve:REDIS_DSN)%'
+        #prefix_seed: snapp/career
+        #app: cache.adapter.redis
+
